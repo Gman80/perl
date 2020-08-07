@@ -1,0 +1,20 @@
+#!/usr/bin/perl
+use warnings;
+use strict;
+
+#Ejecución automática de video a travez de #Perl #regex #vlc #bash $Fedora....Gman80 :)
+
+my $dir_to_process = '/home/path/to/directory'; #ruta del directorio..
+opendir my $dh, $dir_to_process or die "Cannot open $dir_to_process: $!"; #proceso de apertura del directorio..
+my @dataV = ();
+foreach my $file (readdir $dh) {  #leyendo cada archivo dentro del directorio...
+   if ($file =~ /\.avi$/) { #filtrado de archivo segun regex..
+            push (@dataV, $file); #almacenamineto de archivo en variable..
+    }
+}
+                my @sort_dataV = sort @dataV; #organización de archivo SORTING...
+                 foreach my $video (@sort_dataV) { #lectura de cada archivo almacenado...
+                    my @path_video = $dir_to_process.'/'.$video; #contruyendo ruta + archivo encontrado...
+                      system 'vlc', @path_video; #ejecutando comando para lectura en terminal....
+                 }
+                closedir $dh; #cerrando directorio.....
