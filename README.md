@@ -1,7 +1,9 @@
 # Aprendizaje Básico de Perl y Herramientas de Linux (Fedora Workstation).
 
-_El siguiente código es para la practicad del lenguaje Script Perl y su uso bajo Fedora Workstation; utilizando, conocimientos adquiridos de los siguienres recursos:_
-  
+_El siguiente código es para la practicad del lenguaje Perl y su uso bajo Fedora Workstation; utilizando, conocimientos adquiridos de los siguienres recursos:_
+
+Documentación relacionada Perl: [https://perldoc.perl.org/]
+
 ## Recursos:
 
  * [https://perldoc.perl.org/5.32.0/index-tutorials.html].
