@@ -41,9 +41,9 @@ _El siguiente código es para la practicad del lenguaje Script Perl y su uso baj
   
   * Enlace de interes: [https://es.wikipedia.org/wiki/Chmod].
   
-      $ chmod +x arvhivo.pl
+      `$ chmod +x arvhivo.pl`
       
-      $ ./archivo.pl
+      `$ ./archivo.pl`
       
 
   
