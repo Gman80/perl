@@ -1,4 +1,4 @@
-#!/user/bin/perl
+#!/usr/bin/perl
 use warnings;
 use strict;
 #reconocimiento de archivos por extensión y cambio de extensión.
